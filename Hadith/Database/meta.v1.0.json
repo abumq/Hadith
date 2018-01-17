@@ -1,0 +1,204 @@
+ [{
+  "id": "master",
+  "name": "Master Database",
+  "version": 57,
+  "details": "Master database contains meta information of data structure and some other basic information. This database should always be kept updated.",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/mv10",
+  "size": 11264,
+  "app": 1
+  }, {
+  "id": "search",
+  "name": "Search",
+  "version": 8,
+  "details": "Provides searchable keywords for fast searching",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/sv10",
+  "size": 4012032,
+  "app": 1
+  }, {
+  "id": "bukhari",
+  "name": "Sahih al-Bukhari",
+  "version": 50,
+  "details": "Full extract of Sahih al-Bukhari (English) as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/1env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/bukhari.png",
+  "size": 5087232,
+  "app": 1
+  }, {
+  "id": "bukhari-arabic",
+  "name": "Sahih al-Bukhari (Arabic)",
+  "version": 47,
+  "details": "Full extract of Sahih al-Bukhari (Arabic) as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/1arv10",
+  "size": 9207808,
+  "app": 1
+  }, {
+  "id": "muslim-arabic",
+  "name": "Sahih Muslim (Arabic)",
+  "version": 46,
+  "details": "Full extract of Sahih Muslim (Arabic) as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/2arv10",
+  "size": 9138176,
+  "app": 1
+  }, {
+  "id": "nawawi",
+  "name": "40 Hadith of Nawawi",
+  "version": 11,
+  "details": "This database is extracted and synced with muflihun.com",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/8env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/nawawi.png",
+  "size": 387072,
+  "app": 1
+  }, {
+  "id": "nawawi-arabic",
+  "name": "40 Hadith of Nawawi (Arabic)",
+  "version": 12,
+  "details": "This database is extracted and synced with muflihun.com",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/8arv10",
+  "size": 65536,
+  "app": 1
+  }, {
+  "id": "riyaad",
+  "name": "Riyaad-us Saliheen",
+  "version": 12,
+  "details": "Full extract of Riyaad-us Saliheen (English) as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/10env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/riyaad.png",
+  "size": 1393664,
+  "app": 1
+  }, {
+  "id": "muslim",
+  "name": "Sahih Muslim",
+  "version": 12,
+  "details": "Full extract of Sahih Muslim (English) as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/2env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/muslim.png",
+  "size": 4636672,
+  "app": 1
+  }, {
+  "id": "riyaad-arabic",
+  "name": "Riyaad-us Saliheen (Arabic)",
+  "version": 6,
+  "details": "Full extract of Riyaad-us Saliheen (Arabic) as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/10arv10",
+  "size": 1516544,
+  "app": 1
+  }, {
+  "id": "tirmidhi",
+  "name": "Jami' at-Tirmidhi",
+  "version": 7,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/6env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/tirmidhi.png",
+  "size": 2883584,
+  "app": 1
+  }, {
+  "id": "tirmidhi-arabic",
+  "name": "Jami' at-Tirmidhi (Arabic)",
+  "version": 6,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/6arv10",
+  "size": 6503424,
+  "app": 1
+  }, {
+  "id": "abudawood",
+  "name": "Abu Dawood",
+  "version": 7,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/3env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/abudawud.png",
+  "size": 5185536,
+  "app": 1
+  }, {
+  "id": "abudawood-arabic",
+  "name": "Abu Dawood (Arabic)",
+  "version": 6,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/3arv10",
+  "size": 6734848,
+  "app": 1
+  }, {
+  "id": "ibnmajah",
+  "name": "Ibn Majah",
+  "version": 6,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/7env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/ibnmajah.png",
+  "size": 2467840,
+  "app": 1
+  }, {
+  "id": "ibnmajah-arabic",
+  "name": "Ibn Majah (Arabic)",
+  "version": 6,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/7arv10",
+  "size": 5191680,
+  "app": 1
+  }, {
+  "id": "nasai",
+  "name": "Sunan an-Nasa'i",
+  "version": 7,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/9env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/nasai.png",
+  "size": 4199424,
+  "app": 1
+  }, {
+  "id": "nasai-arabic",
+  "name": "Sunan an-Nasa'i (Arabic)",
+  "version": 6,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/9arv10",
+  "size": 6880256,
+  "app": 1
+  }, {
+  "id": "qudsi",
+  "name": "Hadith Qudsi",
+  "version": 7,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/5env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/qudsi.png",
+  "size": 59392,
+  "app": 1
+  }, {
+  "id": "qudsi-arabic",
+  "name": "Hadith Qudsi (Arabic)",
+  "version": 5,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/5arv10",
+  "size": 69632,
+  "app": 1
+  }, {
+  "id": "malik",
+  "name": "Muwatta Maalik",
+  "version": 8,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/4env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/malik.png",
+  "size": 1445888,
+  "app": 1
+  }, {
+  "id": "malik-arabic",
+  "name": "Muwatta Maalik (Arabic)",
+  "version": 20,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/4arv10",
+  "size": 2154496,
+  "app": 1
+  }, {
+  "id": "shamail",
+  "name": "Shama'il al-Muhammadiyya ﷺ",
+  "version": 8,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/11env10",
+  "thumbUrl": "http://rc.muflihun-contents.com/data/hadith.app/shamail.png",
+  "size": 286720,
+  "app": 1
+  }, {
+  "id": "shamail-arabic",
+  "name": "Shama'il al-Muhammadiyya ﷺ (Arabic)",
+  "version": 7,
+  "details": "Full extract as of 21/06/2016",
+  "url": "https://raw.githubusercontent.com/muflihun/dcnt/10/11arv10",
+  "size": 479232,
+  "app": 1
+  }]

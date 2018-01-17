@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="HadithCell" rowHeight="99" id="h2z-bi-MtD" customClass="HadithCell" customModule="Hadith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="91"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h2z-bi-MtD" id="Gpi-hS-TEj">
+                <rect key="frame" x="0.0" y="0.0" width="567" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCZ-ps-K5f">
+                        <rect key="frame" x="20" y="8" width="427" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="3Ge-uf-hKB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="5" translatesAutoresizingMaskIntoConstraints="NO" id="QVJ-n5-frP">
+                        <rect key="frame" x="439" y="8" width="128" height="21"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Grade">
+                                <attributes>
+                                    <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                        <variation key="widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XY-gh-smI">
+                        <rect key="frame" x="20" y="31" width="547" height="52"/>
+                        <attributedString key="attributedText">
+                            <fragment>
+                                <string key="content">This is long max lines excerpt to show how does long hadith look in HadithCell. If this does not fit in view we need to fix it. If we can't fix it we will have to deal with the situation accordingly</string>
+                                <attributes>
+                                    <color key="NSColor" red="0.59141810145128204" green="0.59141810145128204" blue="0.59141810145128204" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QVJ-n5-frP" firstAttribute="trailing" secondItem="5XY-gh-smI" secondAttribute="trailing" id="29d-IU-Jvr"/>
+                    <constraint firstItem="ZCZ-ps-K5f" firstAttribute="width" secondItem="Gpi-hS-TEj" secondAttribute="width" constant="-140" id="7sJ-CJ-SeN"/>
+                    <constraint firstItem="ZCZ-ps-K5f" firstAttribute="leading" secondItem="5XY-gh-smI" secondAttribute="leading" id="DgJ-lg-Mtg"/>
+                    <constraint firstAttribute="trailing" secondItem="QVJ-n5-frP" secondAttribute="trailing" id="Pkh-AZ-otZ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="5XY-gh-smI" secondAttribute="bottom" constant="-0.5" id="STe-ce-qK4"/>
+                    <constraint firstItem="ZCZ-ps-K5f" firstAttribute="bottom" secondItem="QVJ-n5-frP" secondAttribute="bottom" id="TSI-Ik-ZbN"/>
+                    <constraint firstItem="ZCZ-ps-K5f" firstAttribute="leading" secondItem="Gpi-hS-TEj" secondAttribute="leadingMargin" constant="12" id="bEO-Ft-p4p"/>
+                    <constraint firstItem="ZCZ-ps-K5f" firstAttribute="top" secondItem="QVJ-n5-frP" secondAttribute="top" id="klF-Z0-Oni"/>
+                    <constraint firstItem="ZCZ-ps-K5f" firstAttribute="trailing" secondItem="QVJ-n5-frP" secondAttribute="leading" constant="8" symbolic="YES" id="vdY-pp-q9h"/>
+                    <constraint firstItem="ZCZ-ps-K5f" firstAttribute="top" secondItem="Gpi-hS-TEj" secondAttribute="topMargin" id="wFr-hL-G2B"/>
+                    <constraint firstItem="5XY-gh-smI" firstAttribute="top" secondItem="ZCZ-ps-K5f" secondAttribute="bottom" constant="2" id="yy3-XF-v0M"/>
+                </constraints>
+                <variation key="widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="ZCZ-ps-K5f"/>
+                        <include reference="QVJ-n5-frP"/>
+                        <include reference="5XY-gh-smI"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="excerptLabel" destination="5XY-gh-smI" id="PXf-q2-wHK"/>
+                <outlet property="gradeLabel" destination="QVJ-n5-frP" id="rUq-gH-4Sa"/>
+                <outlet property="titleLabel" destination="ZCZ-ps-K5f" id="bLp-bj-0P4"/>
+            </connections>
+            <point key="canvasLocation" x="309" y="262.5"/>
+        </tableViewCell>
+    </objects>
+</document>

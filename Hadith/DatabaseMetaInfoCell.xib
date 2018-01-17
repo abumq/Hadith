@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DatabaseMetaInfoCell" rowHeight="70" id="A1J-pO-Oyu" customClass="DatabaseMetaInfoCell" customModule="Hadith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A1J-pO-Oyu" id="7sJ-zA-tFE">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="update_db" translatesAutoresizingMaskIntoConstraints="NO" id="sr2-ZK-ko3">
+                        <rect key="frame" x="18" y="22" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="WNZ-1V-y0j"/>
+                            <constraint firstAttribute="width" constant="25" id="mlX-mq-Z1D"/>
+                        </constraints>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="WNZ-1V-y0j"/>
+                                <include reference="mlX-mq-Z1D"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check For Updates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbs-Nr-CwY">
+                        <rect key="frame" x="50" y="14" width="443" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No updates" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qig-m5-PYD" userLabel="detailsLabel">
+                        <rect key="frame" x="50" y="42" width="66" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.35289953860000001" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fzw-kO-WHa" customClass="KDCircularProgress" customModule="Hadith" customModuleProvider="target">
+                        <rect key="frame" x="492" y="10" width="50" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="waiting" textAlignment="center" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbn-62-SBd">
+                                <rect key="frame" x="9" y="20" width="32" height="11"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <color key="textColor" red="0.25861378210000002" green="0.25861378210000002" blue="0.25861378210000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dbn-62-SBd" firstAttribute="centerX" secondItem="Fzw-kO-WHa" secondAttribute="centerX" id="5Kj-dg-yjr"/>
+                            <constraint firstAttribute="width" constant="50" id="SqZ-za-oUq"/>
+                            <constraint firstAttribute="height" constant="50" id="eN3-9r-AsC"/>
+                            <constraint firstItem="dbn-62-SBd" firstAttribute="centerY" secondItem="Fzw-kO-WHa" secondAttribute="centerY" id="kaz-TE-deZ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startAngle">
+                                <real key="value" value="-90"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="progressThickness">
+                                <real key="value" value="0.20000000000000001"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="angle">
+                                <real key="value" value="360"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="trackColor">
+                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="IBColor1">
+                                <color key="value" red="0.45098039220000002" green="0.70588235290000001" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="dbn-62-SBd"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="SqZ-za-oUq"/>
+                                <include reference="eN3-9r-AsC"/>
+                                <include reference="5Kj-dg-yjr"/>
+                                <include reference="kaz-TE-deZ"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgk-Fc-dk9">
+                        <rect key="frame" x="557" y="20" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="TEb-s0-JlS"/>
+                            <constraint firstAttribute="width" constant="30" id="rXw-0m-c6W"/>
+                        </constraints>
+                        <state key="normal" image="download"/>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="TEb-s0-JlS"/>
+                                <include reference="rXw-0m-c6W"/>
+                            </mask>
+                        </variation>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sgk-Fc-dk9" firstAttribute="centerY" secondItem="7sJ-zA-tFE" secondAttribute="centerY" id="3Hy-lO-Pg6"/>
+                    <constraint firstItem="gbs-Nr-CwY" firstAttribute="centerY" secondItem="7sJ-zA-tFE" secondAttribute="centerY" constant="-10" id="4sF-y7-zRT"/>
+                    <constraint firstItem="gbs-Nr-CwY" firstAttribute="trailing" secondItem="Fzw-kO-WHa" secondAttribute="trailing" constant="-49" id="CRL-fa-vaR"/>
+                    <constraint firstItem="Fzw-kO-WHa" firstAttribute="centerY" secondItem="7sJ-zA-tFE" secondAttribute="centerY" id="EKh-v2-5jk"/>
+                    <constraint firstItem="Qig-m5-PYD" firstAttribute="top" secondItem="7sJ-zA-tFE" secondAttribute="topMargin" constant="34" id="Ipc-2m-wB8"/>
+                    <constraint firstItem="sr2-ZK-ko3" firstAttribute="centerY" secondItem="7sJ-zA-tFE" secondAttribute="centerY" id="TDt-Dy-1IR"/>
+                    <constraint firstItem="sr2-ZK-ko3" firstAttribute="leading" secondItem="7sJ-zA-tFE" secondAttribute="leadingMargin" constant="10" id="cMv-xD-Qfn"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="sgk-Fc-dk9" secondAttribute="trailing" constant="5" id="gae-kh-UeS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Fzw-kO-WHa" secondAttribute="trailing" constant="50" id="mvM-Cb-lnF"/>
+                    <constraint firstItem="Qig-m5-PYD" firstAttribute="leading" secondItem="7sJ-zA-tFE" secondAttribute="leadingMargin" constant="42" id="qzD-p4-uBj"/>
+                    <constraint firstItem="gbs-Nr-CwY" firstAttribute="leading" secondItem="7sJ-zA-tFE" secondAttribute="leading" constant="50" id="yJi-Wj-hJT"/>
+                </constraints>
+                <variation key="widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="sr2-ZK-ko3"/>
+                        <include reference="gbs-Nr-CwY"/>
+                        <include reference="Qig-m5-PYD"/>
+                        <include reference="Fzw-kO-WHa"/>
+                        <include reference="sgk-Fc-dk9"/>
+                    </mask>
+                    <mask key="constraints">
+                        <include reference="TDt-Dy-1IR"/>
+                        <include reference="cMv-xD-Qfn"/>
+                        <include reference="4sF-y7-zRT"/>
+                        <include reference="yJi-Wj-hJT"/>
+                        <include reference="Ipc-2m-wB8"/>
+                        <include reference="qzD-p4-uBj"/>
+                        <include reference="EKh-v2-5jk"/>
+                        <include reference="mvM-Cb-lnF"/>
+                        <include reference="3Hy-lO-Pg6"/>
+                        <include reference="gae-kh-UeS"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="actionButton" destination="sgk-Fc-dk9" id="kZO-X8-HBO"/>
+                <outlet property="detailLabel" destination="Qig-m5-PYD" id="JuL-Qr-aax"/>
+                <outlet property="icon" destination="sr2-ZK-ko3" id="Y3p-SC-Hyi"/>
+                <outlet property="label" destination="gbs-Nr-CwY" id="IBn-PK-Hld"/>
+                <outlet property="progress" destination="Fzw-kO-WHa" id="6ZP-2C-6Aq"/>
+                <outlet property="progressLabel" destination="dbn-62-SBd" id="GuI-OS-pgG"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="download" width="256" height="256"/>
+        <image name="update_db" width="256" height="256"/>
+    </resources>
+</document>

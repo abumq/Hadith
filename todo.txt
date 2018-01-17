@@ -1,0 +1,12 @@
+v1.0
+====
+ - Dynamic type (font size) for accessibility (http://stackoverflow.com/questions/35355695/how-to-honor-dynamic-type-accessibility-sizes-with-a-custom-font-in-an-ios-story)
+ - Help page: How do i remove my note completely
+
+v1.1
+====
+ - Edit bookmark name
+ - Search bookmark by name
+ - Setting to notify when new database is available
+ - Hadith books and author introduction
+ - Search history (in db-search.db)

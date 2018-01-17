@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DatabaseMetaInfoDetailsCell" rowHeight="90" id="z3c-L2-5LE" customClass="DatabaseMetaInfoDetailsCell" customModule="Hadith" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z3c-L2-5LE" id="9Gj-dR-ee6">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUu-zr-lfR">
+                        <rect key="frame" x="8" y="0.0" width="584" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Ur4-dF-nmc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNI-Wd-1NP">
+                        <rect key="frame" x="8" y="28" width="584" height="53"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WNI-Wd-1NP" firstAttribute="bottom" secondItem="9Gj-dR-ee6" secondAttribute="bottomMargin" id="AhS-m7-Zen"/>
+                    <constraint firstItem="qUu-zr-lfR" firstAttribute="leading" secondItem="WNI-Wd-1NP" secondAttribute="leading" id="RkR-Om-C3h"/>
+                    <constraint firstItem="qUu-zr-lfR" firstAttribute="trailing" secondItem="WNI-Wd-1NP" secondAttribute="trailing" id="YuY-zy-UEp"/>
+                    <constraint firstItem="qUu-zr-lfR" firstAttribute="top" secondItem="9Gj-dR-ee6" secondAttribute="top" id="ZYY-yG-VfA"/>
+                    <constraint firstItem="qUu-zr-lfR" firstAttribute="leading" secondItem="9Gj-dR-ee6" secondAttribute="leadingMargin" id="mif-9N-DE7"/>
+                    <constraint firstItem="WNI-Wd-1NP" firstAttribute="top" secondItem="qUu-zr-lfR" secondAttribute="bottom" constant="7" id="rDz-hd-Kam"/>
+                    <constraint firstItem="qUu-zr-lfR" firstAttribute="trailing" secondItem="9Gj-dR-ee6" secondAttribute="trailingMargin" id="x6f-fh-Tpk"/>
+                </constraints>
+                <variation key="widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="qUu-zr-lfR"/>
+                        <include reference="WNI-Wd-1NP"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailLabel" destination="WNI-Wd-1NP" id="A4w-Qf-soE"/>
+                <outlet property="title" destination="qUu-zr-lfR" id="luT-wo-LBM"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
