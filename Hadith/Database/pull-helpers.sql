@@ -18,7 +18,7 @@ FROM `Hadith` where collection_id = 10 AND status = 1 and database_id = 1 order 
 ## sed '/^concat/ d' import.sql > export.sql && mv export.sql import.sql
 
 # SCP
-## scp db-bukhari.db mkhan3189@ftp.muflihun-contents.com:/home/mkhan3189/public_html/resources/data/hadith.app
+## scp db-bukhari.db livemuflihun:~/public_html/resources/data/hadith.app
 
 # Run script against sqlite database
 ## sqlite3 file.db < file.sql 
