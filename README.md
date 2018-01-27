@@ -2,6 +2,8 @@
 
 Hadith app source code that was not released. This was originally written in Swift 2. We're publishing this source so someone may want to spend time to port it to latest version of Swift and make it publicly available on AppStore.
 
+See [Issue #219](https://github.com/quran/quran-ios/issues/219) on Quran-ios repo
+
 ## Screenshots
 These are some screenshots when this app was in 100% working order
 
